@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "通话时间"; ObjectID = "2Fn-KB-3Ee"; */
+"2Fn-KB-3Ee.text" = "通话时间";
+
+/* Class = "UILabel"; text = "扬声器"; ObjectID = "4ze-xb-XB2"; */
+"4ze-xb-XB2.text" = "扬声器";
+
+/* Class = "UILabel"; text = "流量"; ObjectID = "Haq-ut-UHf"; */
+"Haq-ut-UHf.text" = "流量";
+
+/* Class = "UIButton"; normalTitle = "视频通话"; ObjectID = "L2i-es-R5N"; */
+"L2i-es-R5N.normalTitle" = "视频通话";
+
+/* Class = "UILabel"; text = "关闭摄像头"; ObjectID = "N1q-JC-d3c"; */
+"N1q-JC-d3c.text" = "关闭摄像头";
+
+/* Class = "UILabel"; text = "输入会议室名称"; ObjectID = "aiM-S9-TaQ"; */
+"aiM-S9-TaQ.text" = "输入会议室名称";
+
+/* Class = "UITextView"; text = "如果会议室名称不存在，你将创建并自动加入到该会议室；如果该会议室名称存在，你将自动加入该进行中的会议室"; ObjectID = "ekt-Vv-CLB"; */
+"ekt-Vv-CLB.text" = "如果会议室名称不存在，你将创建并自动加入到该会议室；如果该会议室名称存在，你将自动加入该进行中的会议室";
+
+/* Class = "UILabel"; text = "稳定完美视频通话体验"; ObjectID = "hVE-cW-fxv"; */
+"hVE-cW-fxv.text" = "稳定完美视频通话体验";
+
+/* Class = "UILabel"; text = "NAME"; ObjectID = "hrJ-ZE-JmI"; */
+"hrJ-ZE-JmI.text" = "NAME";
+
+/* Class = "UILabel"; text = "百灵—会议室"; ObjectID = "inb-7M-90L"; */
+"inb-7M-90L.text" = "百灵—会议室";
+
+/* Class = "UIButton"; normalTitle = "会议室"; ObjectID = "jOt-YT-T9U"; */
+"jOt-YT-T9U.normalTitle" = "会议室";
+
+/* Class = "UIButton"; normalTitle = "加入"; ObjectID = "m6Q-CZ-8Cd"; */
+"m6Q-CZ-8Cd.normalTitle" = "加入";
+
+/* Class = "UITextField"; placeholder = "输入房间号"; ObjectID = "qJ1-yx-GeV"; */
+"qJ1-yx-GeV.placeholder" = "输入房间号";
+
+/* Class = "UIButton"; normalTitle = "语音通话"; ObjectID = "sxx-y9-2M0"; */
+"sxx-y9-2M0.normalTitle" = "语音通话";
+
+/* Class = "UILabel"; text = "静音"; ObjectID = "v6x-ih-4qV"; */
+"v6x-ih-4qV.text" = "静音";
+
+/* Class = "UILabel"; text = "切换摄像头"; ObjectID = "v83-6U-81z"; */
+"v83-6U-81z.text" = "切换摄像头";
+
+/* Class = "UILabel"; text = "静音"; ObjectID = "w99-d3-2xS"; */
+"w99-d3-2xS.text" = "静音";
+
+/* Class = "UILabel"; text = "扬声器"; ObjectID = "y5S-5u-Ki0"; */
+"y5S-5u-Ki0.text" = "扬声器";
+
+/* Class = "UILabel"; text = "百灵会议室"; ObjectID = "za2-jT-LZl"; */
+"za2-jT-LZl.text" = "百灵会议室";

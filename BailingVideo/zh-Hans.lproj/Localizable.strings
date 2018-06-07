@@ -1,0 +1,90 @@
+//
+//  BlinkTalk
+//
+//  Created by Bailing Cloud on 2016/11/11.
+//  Copyright © 2016年 Bailing Cloud. All rights reserved.
+//
+
+"splash_loading" = "正在加载...";
+
+"Bailing_Meeting" = "百灵音视频";
+
+
+"chat_room" = "房间";
+"chat_wait_attendees" = "等待好友加入中...";
+"chat_exiting" = "正在退出...";
+"chat_total_time" = "通话时间";
+"chat_total_traffic" = "使用流量";
+"chat_send" = "发送";
+"chat_receive" = "接收";
+"chat_invite_upgrade" = "主持人邀请您参与讨论\n是否接受";
+"chat_already_host" = "您已是主持人";
+"chat_removed_by_host" = "您已被主持人移出当前会话";
+"chat_observerRequestBecomeNormalUser" = "当前会话仅你一人,无法请求发言";
+"chat_open_cameramic_by_host" = "主持人邀请您打开摄像头和麦克风\n是否接受";
+"chat_open_mic_by_host" = "主持人邀请您打开麦克风\n是否接受";
+"chat_open_camera_by_host" = "主持人邀请您打开摄像头\n是否接受";
+"chat_alert_btn_confirm" = "确认";
+"chat_alert_btn_cancel" = "取消";
+"chat_alert_btn_no" = "否";
+"chat_alert_btn_yes" = "是";
+"chat_notice" = "Notice";
+"chat_alert_raisehand_busy" = "主持人忙，请稍后再拨";
+"chat_notice_open_whiteboard" = "当前无白板,请等待其他会话人员创建后查看!";
+"chat_notice_can_speak" = "您可以直接发言!";
+"chat_notice_exit_with_whiteboard" = "退出后白板将被销毁\n是否继续退出?";
+"chat_Suggested_horizontal_screen_viewing" = "建议横屏，能看的更清楚";
+"chat_data_excel_tunnelname" = "通道名称";
+"chat_data_excel_userid" = "用户Id";
+"chat_data_excel_Codec" = "Codec";
+"chat_data_excel_dpi" = "分辨率";
+"chat_data_excel_fps" = "帧率";
+"chat_data_excel_kbps" = "码率";
+"chat_data_excel_lossrate" = "丢包率%";
+"chat_data_excel_delay" = "音视频往返延时(ms)";
+
+"login_input_meeting_welcome" = "欢迎体验实时高质量的音视频会议";
+"login_input_meeting_room_name" = "请输入会议室名称";
+"login_input_meeting_user_name" = "请输入姓名";
+"login_input_tip_content" = "如果会议室名称不存在,你将创建并自动加入会议室;如果该会议室存在,你将自动加入该进行中的。";
+"login_input_meeting_room_NO" = "会议室房间号";
+"login_input_encryption_key" = "加密秘匙";
+"login_input_enter_meeting_room" = "开始会议";
+"login_input_login_meeting_room" = "登录中...";
+"login_input_need_room_number" = "请输入房间号";
+"login_input_need_input" = "请输入信息";
+"login_input_need_user_name" = "请输入姓名";
+"login_input_error_length" = "字符长度超出范围";
+"login_input_error_illegal" = "仅支持中英文";
+"login_input_error_nil" = "请输入姓名";
+"login_input_radio_default" = "默认";
+"login_input_radio_close_camera" = "加入时不开启视频";
+"login_input_radio_observer" = "以旁听者身份加入";
+"login_input_need_room_username" = "仅支持中文和英文字母";
+"login_input_notice_error" = "输入的用户名不合法";
+
+"setting_title" = "设置";
+"setting_resolution_ratio" = "分辨率(仅部分手机支持1080p)";
+"setting_frame_rate" = "帧率";
+"setting_code_rate" = "码率";
+"setting_code_rate_min" = "最小码率";
+"setting_OK" = "确定";
+"setting_Cancel" = "取消";
+"setting_Connection_Style" = "连接方式";
+"setting_Coding_Style" = "编码方式";
+"setting_testing_report" = "测试报告";
+"setting_network_testing" = "网络测试";
+"setting_sniffer_testing" = "探测测试数据";
+"setting_local_video" = "本地视频";
+"setting_gpu_filter" = "美颜";
+"setting_media_encrypt" = "媒体数据加密";
+"setting_urlschema" = "服务器设置";
+"setting_urlschema_token" = "Token";
+"setting_urlschema_cmp" = "CMP";
+"setting_urlschema_cmp_placeholder" = "服务器地址";
+"setting_urlschema_token_placeholder" = "token";
+"setting_urlschema_null" = "输入内容不能为空!";
+"setting_urlschema_cmp_error" = "请输入正确服务器地址";
+"setting_urlschema_token_error" = "请输入正确token地址";
+"setting_media_connectiontype" = "连接方式";
+"setting_build_info" = "编译信息";

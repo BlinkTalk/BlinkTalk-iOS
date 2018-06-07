@@ -1,0 +1,100 @@
+//
+//  BlinkTalk
+//
+//  Created by Bailing Cloud on 2016/11/11.
+//  Copyright © 2016年 Bailing Cloud. All rights reserved.
+//
+
+#import <Availability.h>
+
+#define kAPPKey @""  //此APPKey在加入房间时需要用到, 请到百灵官网获取, 否则无法加入房间
+
+#define kDeviceUUID [[[UIDevice currentDevice] identifierForVendor] UUIDString]
+#define KIsiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+
+#define kURLConfigListProd @"https://rtcapi.ronghub.com/nav/configlist"
+#define kURLConfigListProdQUIC @"http://rtcapi.ronghub.com:8801/nav/configlist"
+
+#define kIsCustomVersion NO
+#define kURLCMPCustom @"cmp.blinktalk.site:80"
+#define kURLTokenCustom @"https://api.blinktalk.site:8800/token"
+
+
+#define KeyUserDefinedCMP @"defaultUserDefinedCMPUrl"
+#define KeyUserDefinedToken @"defaultUserDefinedTokenUrl"
+#define KeyUserDefinedAppKey @"defaultUserDefinedAppKey"
+
+
+
+#define RegexcmpUrl @"^((25[0-5]|2[0-4]\\d|1\\d\\d|\\d\\d|\\d)\\.(25[0-5]|2[0-4]\\d|1\\d\\d|\\d\\d|\\d)\\.(25[0-5]|2[0-4]\\d|1\\d\\d|\\d\\d|\\d)\\.(25[0-5]|2[0-4]\\d|1\\d\\d|\\d\\d|\\d)(:(\\d\\d\\d\\d|\\d\\d\\d|\\d\\d|\\d))?)$"
+#define RegextokenUrl  @"[a-zA-z]+://[^\\s]*"
+//#define RegexUserName  @"^[a-zA-Z-]{1,12}$|^[\u4E00-\u9FA5]{1,6}$"
+//#define RegexUserName @"^(([a-zA-Z\u4e00-\u9fa5]([a-zA-Z\\s\u4e00-\u9fa5]+)[a-zA-Z\u4e00-\u9fa5])|([a-zA-Z\\u4e00-\u9fa5]){1,12})$"
+//#define RegexUserName @"^(([a-zA-Z\u4e00-\u9fa5]){1,12})$"
+
+#define RegexUserName @"^([a-zA-Z(\\u0020|\\u3000)\u4e00-\u9fa5]){1,12}$"
+#define IllegelCharSet @"[0123456789`~!@#$%^&*()+=|{}':;',\\[\\].<>/?~！@#￥%……&*（）——+|{}【】‘；：”“’。，、？]"
+
+//@"^[a-zA-Z\u4e00-\u9fa5 ]{1,12}$"
+#define RegexIsChinese @"^[\u4e00-\u9fa5]+$"
+//@"^[`~!@#$%^&*()+=|{}':;',\\[\\].<>[表情]~！@#￥%……&*（）——+|{}【】‘；：”“’。，、？]$"
+
+#define ScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+#define BigVideoFrame CGRectMake(0, 0, 90, 120)
+#define SmallVideoFrame CGRectMake(0, 0, 90, 120)
+
+#define Key_SnifferKey @"SnifferData"
+#define File_SettingUserDefaults_Plist @"settingUserDefaults.plist"
+#define Key_ResolutionRatio @"ResolutionRatio"
+#define Key_FrameRate @"FrameRate"
+#define Key_CodeRate @"CodeRate"
+#define Key_CodeRateMin @"CodeRateMin"
+#define Key_ConnectionStyle @"ConnectionStyle"
+#define Key_CodingStyle @"CodingStyle"
+#define Key_Observer @"Observer"
+#define Key_CloseVideo @"CloseVideo"
+#define Key_GPUFilter @"GPUFilter"
+#define Key_SRTPEncrypt @"SRTPEncrypt"
+#define Key_ConnectionMode @"ConnectionMode"
+
+#define Value_Default_ResolutionRatio 1
+#define Value_Default_FrameRate 0
+#define Value_Default_CodeRate 50
+#define Value_Default_Connection_Style 1
+#define Value_Default_Coding_Style 0
+#define Value_Default_MinCodeRate 10
+#define Value_Default_Observer 1
+#define Value_Default_CloseVideo 0
+#define Value_Default_GPUFilter NO
+#define Value_Default_SRTPEncrypt NO
+#define Value_Default_ConnectionMode 1
+
+#ifdef DEBUG
+
+    #define APP_Version [NSString stringWithFormat:@"%@ V%@_Debug",NSLocalizedString(@"Bailing_Meeting", nil), [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]]
+
+    #ifndef DLog
+    #define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+    #endif
+
+
+#else
+
+    #define APP_Version [NSString stringWithFormat:@"%@ V%@",NSLocalizedString(@"Bailing_Meeting", nil), [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]]
+
+    #ifndef DLog
+    #define DLog(...)
+    #endif
+
+#endif
+
+
+
+#if __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>

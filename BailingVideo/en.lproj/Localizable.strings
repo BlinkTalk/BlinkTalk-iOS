@@ -1,0 +1,90 @@
+//
+//  BlinkTalk
+//
+//  Created by Bailing Cloud on 2016/11/11.
+//  Copyright © 2016年 Bailing Cloud. All rights reserved.
+//
+
+"splash_loading" = "Loading...";
+
+"Bailing_Meeting" = "BailingVideo";
+
+
+"chat_room" = "Room";
+"chat_wait_attendees" = "Waiting for attendees...";
+"chat_exiting" = "Exiting...";
+"chat_total_time" = "Total Time";
+"chat_total_traffic" = "Total Traffic";
+"chat_send" = "Send";
+"chat_receive" = "Recv";
+"chat_invite_upgrade" = "The host invited you to participate in the discussion of whether \\n accepted";
+"chat_already_host" = "You are already the host";
+"chat_removed_by_host" = "You have been removed from the current session by the host";
+"chat_observerRequestBecomeNormalUser" = "The current session is only one of you and can't ask for a speech";
+"chat_open_cameramic_by_host" = "The host invited you to open the camera and the microphone \n to accept";
+"chat_open_mic_by_host" = "The host invited you to open the microphone \n to accept";
+"chat_open_camera_by_host" = "The host invited you to open the camera \n to accept";
+"chat_alert_btn_confirm" = "OK";
+"chat_alert_btn_cancel" = "Cancel";
+"chat_alert_btn_no" = "NO";
+"chat_alert_btn_yes" = "YES";
+"chat_notice" = "Notice";
+"chat_alert_raisehand_busy" = "The host is busy, please redial later";
+"chat_notice_open_whiteboard" = "There is no whiteboard for view now, please wait for others to create whiteboard";
+"chat_notice_can_speak" = "You can speak directly!";
+"chat_notice_exit_with_whiteboard" = "After the exit, the whiteboard will be destroyed.\n Do you continue to quit?";
+"chat_Suggested_horizontal_screen_viewing" = "Suggested horizontal screen viewing";
+"chat_data_excel_tunnelname" = "tunnel";
+"chat_data_excel_userid" = "userID";
+"chat_data_excel_Codec" = "Codec";
+"chat_data_excel_dpi" = "dpi";
+"chat_data_excel_fps" = "fps";
+"chat_data_excel_kbps" = "kbps";
+"chat_data_excel_lossrate" = "lossrate";
+"chat_data_excel_delay" = "delay";
+
+"login_input_meeting_welcome" = "Welcome to RTC Audio/Video Meeting";
+"login_input_meeting_room_name" = "Room ID";
+"login_input_meeting_user_name" = "UserName";
+"login_input_tip_content" = "For non-existing room, you will create and join it; for existing room, you will join it.";
+"login_input_meeting_room_NO" = "Room No.";
+"login_input_encryption_key" = "Encryption Key";
+"login_input_enter_meeting_room" = "Enter Room";
+"login_input_login_meeting_room" = "Logining...";
+"login_input_need_room_number" = "Input Room Number";
+"login_input_need_input" = "Input Message";
+"login_input_need_user_name" = "Input Username";
+"login_input_error_length" = "Incorrect character length";
+"login_input_error_illegal" = "Username illegal";
+"login_input_error_nil" = "Input Username";
+"login_input_radio_default" = "Default";
+"login_input_radio_close_camera" = "Join Channel Without Video";
+"login_input_radio_observer" = "Observer Join Channel";
+"login_input_need_room_username" = "Only Chinese and English letters are supported";
+"login_input_notice_error" = "Inputted username character illegality";
+
+"setting_title" = "Setting";
+"setting_resolution_ratio" = "Resolution Ratio(Only part of the mobile phone support 1080p)";
+"setting_frame_rate" = "Frame Rate";
+"setting_code_rate" = "Code Rate";
+"setting_code_rate_min" = "Min Code Rate";
+"setting_OK" = "OK";
+"setting_Cancel" = "Cancel";
+"setting_Connection_Style" = "Connection Style";
+"setting_Coding_Style" = "Coding Style";
+"setting_testing_report" = "Testing Report";
+"setting_network_testing" = "Network Testing";
+"setting_sniffer_testing" = "Sniffer Testing";
+"setting_local_video" = "Local Video";
+"setting_gpu_filter" = "Beauty";
+"setting_media_encrypt" = "Media Data Encrypt";
+"setting_urlschema" = "Server Config";
+"setting_urlschema_token" = "Token";
+"setting_urlschema_cmp" = "CMP";
+"setting_urlschema_cmp_placeholder" = "CMP server";
+"setting_urlschema_token_placeholder" = "token";
+"setting_urlschema_null" = "The input is empty, please reenter it";
+"setting_urlschema_cmp_error" = "Please enter the correct server address";
+"setting_urlschema_token_error" = "Please enter the correct token address";
+"setting_media_connectiontype" = "Connection Type";
+"setting_build_info" = "Build Info";
